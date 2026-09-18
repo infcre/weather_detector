@@ -9,8 +9,8 @@ import paho.mqtt.client as mqtt
 
 
 # ================= 配置区 =================
-MQTT_BROKER = "frp-air.com"
-MQTT_PORT = 64702
+MQTT_BROKER = "10.65.78.91"
+MQTT_PORT = 1833
 
 # 每个设备的主题格式：
 # sensor/terminal/esp32c3_xxxxxxxxxxxx
