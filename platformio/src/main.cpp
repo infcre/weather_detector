@@ -25,12 +25,12 @@
 #include <esp_mac.h>
 
 // ===================== 1. 基础配置区 =====================
-static const char *WIFI_SSID = "ssid_24";
-static const char *WIFI_PASSWORD = "password";
+static const char *WIFI_SSID = "swu-wifi(2.4G)";
+static const char *WIFI_PASSWORD = "";
 
 // MQTT 服务器（可以是局域网 IP 或域名）
-static const char *MQTT_BROKER = "suyuke.f1.luyouxia.net";
-static const uint16_t MQTT_PORT = 15494;
+static const char *MQTT_BROKER = "10.65.78.91";
+static const uint16_t MQTT_PORT = 1883;
 // 无鉴权的 broker 保持 nullptr 即可
 static const char *MQTT_USER = nullptr;
 static const char *MQTT_PASSWORD = nullptr;
